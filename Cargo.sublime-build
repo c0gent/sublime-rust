@@ -10,8 +10,16 @@
 
     "variants": [
         {
+            "shell_cmd": "cargo check",
+            "name": "Check"
+        },
+        {
             "shell_cmd": "cargo run",
             "name": "Run"
+        },
+        {
+            "shell_cmd": "cargo run --release",
+            "name": "Run Release"
         },
         {
             "shell_cmd": "cargo test",
@@ -28,6 +36,10 @@
         {
             "shell_cmd": "cargo build --release",
             "name": "Release"
+        },
+        {
+            "shell_cmd": "cargo doc",
+            "name": "Document"
         },
         {
             "shell_cmd": "cargo clippy",
